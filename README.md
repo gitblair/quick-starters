@@ -1,2 +1,2 @@
 # quick-starters
-# various php mysql quick start with sql file
+various php mysql quick starters with sql file
