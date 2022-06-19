@@ -14,15 +14,6 @@ echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
 $result = mysqli_query($con,"SELECT * FROM persons");
 
-
-// mysqli_query($con,"SELECT *
-// INTO OUTFILE 'Desktop/temp/file.csv'
-// FIELDS TERMINATED BY ',
-//  LINES TERMINATED BY '\n'
-//  FROM employees"
-//  );
-
-
 echo "<table border='1'>
 <tr>
 <th>id</th>
